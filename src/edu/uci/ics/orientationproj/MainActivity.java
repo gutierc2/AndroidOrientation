@@ -93,7 +93,6 @@ public class MainActivity extends Activity {
 			@Override
 			public void onSensorChanged(SensorEvent event)
 			{
-				System.out.println("SensorChanged");
 				float[] values = event.values;
 				xAxis = values[0];
 				yAxis = values[1];
